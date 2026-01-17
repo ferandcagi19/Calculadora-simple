@@ -48,7 +48,8 @@ if error:
     
     elif op == "3":
         print (f"El resultado es {a*b}")
-    
+
+    #aqui creamos una excepcion para la division ya que no se puede dividir entre 0, si lo intentan nos dara un "error"
     elif op == "4":
         if b != "0":
             d = round(a/b , 2)
